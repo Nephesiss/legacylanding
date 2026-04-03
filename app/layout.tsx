@@ -3,12 +3,11 @@ import React from 'react';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 
-<link
-  rel="icon"
-  href="/logo?<generated>"
-  type="image/<generated>"
-  sizes="<generated>"
-/>
+export const metadata = {
+  icons: {
+    icon: '/logo.png',
+  },
+};
 
 const poppins = Poppins({
   subsets: ['latin'],
